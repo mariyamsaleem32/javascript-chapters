@@ -1,9 +1,8 @@
 //  Arrays:
 // Adding and removing elements
-
-/*            
+        
 var arr = ["1","2","3","4"];
-console.log(arr[1]);
+console.log(arr[1]);    // 2
 arr[4] ="5";
 arr[5] = "6";
 console.log(arr);
@@ -11,9 +10,9 @@ console.log(arr);
 // remove and add elements it the last of arry
 var arr = ["sameena","hina","zunera","amna"];
 console.log(arr);
-arr.pop();          // remove
+arr.pop();             // remove amna
 console.log(arr);
-arr.push("rabiya","iqra");  // add
+arr.push("rabiya","iqra");  // add rabiya and iqra
 console.log(arr);
-*/                             
+                            
 

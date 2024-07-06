@@ -1,29 +1,29 @@
 //ch Math expressions: Unfamiliar operators
 
-/* 
-var num = 10;
-alert(num);*/
-/* num++; //increase 1
- alert(num);*/
  /*
- num++;             //post
- ++num;             //pre
- num--;
- alert(num);*/
+ ++num;  //pre increment
+ --num;  //pre decrement
+ num++;  //post increment
+ num--;  //post decrement
+*/
 
-/*  var num =2 + 2 * 4 - 5 * 2;
- alert(num);*/                //answer will be 0
+var num = 10;
+alert("now num is:"+" "+num);
+ num++;       //increase 1
+ alert("now num is:"+" "+num+" "+"by applying post increment");
+
+ var number = 2 + 2 * 4 - 5 * 2;
+ alert(number);              //answer is 0
 
  
- /*var num =( 2 + 2) * 4 - 5 * 2;
- alert(num); */               //now answer will be 6
+ var num = ( 2 + 2) * 4 - 5 * 2;
+ alert(num);                //now answer is 6
 
- 
- /*let a = 2;
+ let a = 2;
  let b = 3;
  let result = (a++ + --b) - b++ - --a * a++;
               // 2 + 2 - 2 - 2 * 2
               //  4 - 2 = 2   2 - 4 = -2
  alert(result);        
- //answer will be -2 
- */
+ //answer is - 2 
+

@@ -1,11 +1,13 @@
 //if statements
 
-// var x = prompt("Where does the Pope live?");
-//  if (x === "Vatican") {
-//  alert("Correct!");
-//  }
-
-// var correctAnswer = "Vatican";
-//  if (x === correctAnswer) {
-//  alert("Correct!");
-//  }
+var x = prompt("Where does the miya live?");
+ if (x === "london") {
+ alert("Correct!");
+ }
+var correctAnswer = "london";
+ if (x === correctAnswer) {
+ alert("Correct!");
+ }
+ else{
+    alert("incorrect");
+ }

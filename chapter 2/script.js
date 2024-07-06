@@ -1,9 +1,9 @@
 //Variables for Strings
 
-/*let firstName = "mariyam";
+let firstName = "mariyam";
 let lastName = "saleem";
 let fullName = firstName + " " + lastName;
-document.write("fullName:"+fullName);*/
+document.write("fullName:"+fullName);
 
 //alert("student name"+ studentName); //it is not defined
 

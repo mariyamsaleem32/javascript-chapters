@@ -1,10 +1,9 @@
 // for loop
 
 for (let i = 0; i < 6; i++) {
-console.log(i);   
+console.log(i);    // loop will be upgrade 1 to 5
 }
 
-/*
 var word = prompt("Enter word");
 var reverse = "";
 
@@ -17,9 +16,8 @@ if (word === reverse) {
 }
 else{
     console.log("It's not a plindrome");
-}*/
+}
 
-/*
 var arr = [11, 22, 83, 40, 55, 66, 78,10];
 var min = arr[0];
 
@@ -28,9 +26,9 @@ for (let i = 0; i < arr.length; i++) {
        min = arr[i]
  }
 }
-console.log(min);*/
+console.log(min);
 
-// var pakistaniCities = "karachi";
-// for (let i = 0; i < pakistaniCities.length; i++) {
-//     console.log(pakistaniCities[i]);
-// }
+var pakistaniCities = "karachi";
+for (let i = 0; i < pakistaniCities.length; i++) {
+    console.log(pakistaniCities[i]);
+}
