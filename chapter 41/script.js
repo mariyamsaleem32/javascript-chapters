@@ -34,9 +34,15 @@
 //  }
 
 // write a program to display user input vallidation.
-let userInput;
-let passWord ="javascript123";
-while (userInput!==passWord) {
-userInput = prompt("Enter your password")
-}
-document.write("access granted");
+// let userInput;
+// let passWord ="javascript123";
+// while (userInput!==passWord) {
+// userInput = prompt("Enter your password")
+// }
+// document.write("access granted");
+
+// let coundown = 10;
+// while (coundown>0) {
+//     console.log(coundown);
+//     coundown--
+// }
