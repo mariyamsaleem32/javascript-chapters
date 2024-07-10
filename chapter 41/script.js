@@ -23,14 +23,20 @@
 // document.write("factorial of a number is:"+" "+factorial);
 
 // write a program to display finding the first 10 even number.
- let evenNumber = [];
- let i = 1;
- while (evenNumber.length<10) {
-    if (i % 2 === 0) {
-        evenNumber.push(i)
-    } 
-    i++;
-    console.log(evenNumber);
- }
+//  let evenNumber = [];
+//  let i = 1;
+//  while (evenNumber.length<10) {
+//     if (i % 2 === 0) {
+//         evenNumber.push(i)
+//     } 
+//     i++;
+//     console.log(evenNumber);
+//  }
 
-
+// write a program to display user input vallidation.
+let userInput;
+let passWord ="javascript123";
+while (userInput!==passWord) {
+userInput = prompt("Enter your password")
+}
+document.write("access granted");
