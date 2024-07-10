@@ -2,7 +2,7 @@
 
 // let myNum = +prompt("Enter a number");
 // let i = 10;
-// while (i>=myNum) {
+// while (i >= myNum) {
 //     console.log(i);
 //     i--;
 // }
