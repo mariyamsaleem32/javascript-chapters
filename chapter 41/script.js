@@ -1,3 +1,5 @@
+// while loops
+
 // let myNum = +prompt("Enter a number");
 // let i = 10;
 // while (i>=myNum) {
