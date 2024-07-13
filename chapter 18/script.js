@@ -71,7 +71,8 @@
 //     console.log(pakistaniCities[i]);
 // }
 
-var pakistaniCities = "karachi";
+var pakistaniCities = null;
 pakistaniCities += " pakistan";
 
-console.log(pakistaniCities.length);
+console.log(pakistaniCities);
+
