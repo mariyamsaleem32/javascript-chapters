@@ -75,17 +75,22 @@
 // pakistaniCities += "pakistan";
 // console.log(pakistaniCities);
 
-// var numbers = [11,13,14,15,20];
-// var missing = [];
+var arr = [11,13,14,15,20];
+//  var missing = [];
 
-// for (let i = 0; i < numbers.length - 1 ; i++) {
-//     var diff = numbers[i + 1] - numbers[i];
-//     if (diff > 1) {
-//     for (let j = 1; j < diff; j++) {
-//     missing.push(numbers[i] + j);
-//     }
-//     }
-// }
-// console.log(numbers);
+for (let i = 0; i < arr.length - 1 ; i++) 
+{
+    var diff = arr[i + 1] - arr[i]; // 2,1,1,5
+    if (diff > 1)               // true
+    {
+    for (let j = 1; j < diff; j++) 
+       {
+     // console.log(arr[i] + j);
+    //  missing.push(arr[i] + j);
+        arr.splice(i+j,0,arr[i] + j);
+       }
+    }
+}
+console.log(arr);
 // console.log(missing);
 
