@@ -15,7 +15,7 @@
 
 // Note that the keyword toLowerCase must be in camelCase.
 
-var fullName = "Mariyam Saleem";
-fullName = fullName.slice(0,1).toUpperCase();
+var fullName = "mariyam Saleem";
+fullName = fullName.slice(0,1).toUpperCase() + fullName.slice(1);
 console.log(fullName);
 
