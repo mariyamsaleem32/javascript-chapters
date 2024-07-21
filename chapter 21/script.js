@@ -12,10 +12,33 @@
 //          alert("It's one of the clanest city");
 //        }
 //     }
-
 // Note that the keyword toLowerCase must be in camelCase.
 
-var fullName = "mariyam Saleem";
-fullName = fullName.slice(0,1).toUpperCase() + fullName.slice(1);
-console.log(fullName);
+var userName = "mariyam pary";
+ var answer =  "";
 
+ for (var i = 0; i < userName.length; i++) {
+   answer += userName[i].toUpperCase()
+}
+console.log(answer); //all capital
+
+var fullName = "muhammad saleem pary";
+ var result =  "";
+ var temp = "";
+
+ for (let i = 0; i < fullName.length; i++) {
+   if (i === 0) {
+      result += fullName[i].toUpperCase();
+   } else if (fullName[i] === " ") {
+     temp += fullName[i + 1].toUpperCase();
+   }
+ else {
+   if (temp) {
+      result += " "+temp;
+      temp = "";
+   } else{
+result += fullName[i]
+}
+ }
+}
+ console.log(result); // first and sec letter capital
