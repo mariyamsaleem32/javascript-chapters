@@ -8,4 +8,11 @@ function tellTime() {
      }
      tellTime()
     
-     
+    let greet = "hello";
+    function greeting(name) {
+     console.log(greet + " " + name);
+    } 
+    greet = "hi"
+    greeting("john");
+
+    
