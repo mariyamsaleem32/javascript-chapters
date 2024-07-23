@@ -7,12 +7,9 @@ function tellTime() {
      alert("Current time: "+ theHr + ":" + theMin);
      }
      tellTime()
-    
-    let greet = "hello";
-    function greeting(name) {
-     console.log(greet + " " + name);
-    } 
-    greet = "hi"
-    greeting("john");
 
-    
+function mySum(a,b)  // perameter
+{
+console.log(a +b);
+}
+mySum(4,6);        // aurgument
