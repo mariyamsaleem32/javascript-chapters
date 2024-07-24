@@ -24,7 +24,8 @@ paragraphs[0].style.fontSize = "40px";
 paragraphs[2].style.fontSize = "37px";
 paragraphs[2].style.fontFamily = "Times New Roman";
 
-function changeColor(newColor) {
+function changeColor(bgColor,textColor) {
     const btn = document.getElementById("pera");
-    btn.style.color = newColor;
+    btn.style.backgroundColor = bgColor;
+    btn.style.color = textColor;
 }
