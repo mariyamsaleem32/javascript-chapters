@@ -11,7 +11,6 @@ else{
     alert("you are not right user");
 }
 
-
 // var salary = amountThree;
 // var amountOne = 10000;
 // var amountTwo = 25000;
