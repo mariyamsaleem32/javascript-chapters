@@ -1,18 +1,18 @@
 // The DOM
 
-// console.log(document);                                       // return html document on console
+console.log(document);                                       // return html document on console
 
-// console.log(document.getElementById("main"));               // return only id on console not div
+console.log(document.getElementById("main"));               // return only id on console not div
 
-// console.log(document.getElementById("main").innerHTML);    // return only html text on console not id path
+console.log(document.getElementById("main").innerHTML);    // return only html text on console not id path
 
-// console.log(document.getElementById("main").innerHTML = "<h1>mariyam saleem</h1>"); 
+console.log(document.getElementById("main").innerHTML = "<h1>mariyam saleem</h1>"); 
 
-// function getValue() {
-// var input = document.getElementById("input").value;
-// console.log(input);
-// }
-// getValue();                                                 // not work just works on html event method
+function getValue() {
+var input = document.getElementById("input").value;
+console.log(input);
+}
+getValue();                                                 // not work just works on html event method
 
 // task
 function calculateAge() {
