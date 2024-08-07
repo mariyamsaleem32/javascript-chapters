@@ -49,3 +49,48 @@ function calculateAge() {
     console.log(`You are ${remainingHours} hours, ${remainingMinutes} minutes, and ${remainingSeconds} seconds old.`);
 }
 
+// task 4
+function getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+
+    return `rgb(${r}, ${g}, ${b})`;
+}
+
+function changeColor() {
+    document.body.style.backgroundColor = getRandomColor();
+}
+
+
+// task 2
+let sum = 0;
+const number = [50,67,89,34];
+
+number.forEach(myNumber);
+document.write("The sum of numbers is:"+" "+sum+ "<br>")
+
+function myNumber(item) {
+    sum = sum + item;
+}
+
+// task 3
+const numbers = [98,67,89,74,45];
+
+numbers.forEach(myNumbers);
+document.write("The sum of numbers is:"+" "+numbers+"<br>")
+
+function myNumbers(item,index,arr) {
+    arr[index] = item * 20;
+}
+
+// task 4
+let text = "";
+const fruits = ["apple","mango","orange","bnana","peach"];
+
+fruits.forEach(myFruits)
+document.getElementById('demo').innerHTML = text;
+
+function myFruits(item,index) {
+    text = text + index + ":" + item + "<br>";
+}
