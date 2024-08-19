@@ -24,10 +24,16 @@ paragraphs[0].style.fontSize = "40px";
 paragraphs[2].style.fontSize = "37px";
 paragraphs[2].style.fontFamily = "Times New Roman"; */
 
-function changeColor(bgColor,textColor) {
-    const btn = document.getElementById("pera");
-    btn.style.backgroundColor = bgColor;
-    btn.style.color = textColor;
-}
+// function changeColor(bgColor,textColor) {
+//     const btn = document.getElementById("pera");
+//     btn.style.backgroundColor = bgColor;
+//     btn.style.color = textColor;
+// }
 
-document.querySelector("p").style.color = "pink";    // it will color pink autometicaly
+// document.querySelector("p").style.color = "pink";    // it will color pink autometicaly
+
+// function fillCity() {
+//     var cityName;
+
+// const id = document.getElementById("myH1");
+// console.log(id.getAttribute("class"));
