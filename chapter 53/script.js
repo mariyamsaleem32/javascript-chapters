@@ -1,12 +1,11 @@
-// let on = document.getElementById("btnOn");
-// on.onclick="document.getElementById('myImage').src='blub off.jfif'";
-// let off = document.getElementById("btnOff");
-// off.onclick="document.getElementById('myImage').src='blub on.jfif'";
+  document.getElementById('turnOnButton').addEventListener('click', function() {
 
-function myFunction() {
+  document.getElementById('myImage').src = 'blub on.jfif';
 
-  document.getElementById("btnOn").onclick="document.getElementById('myImage').src='blub off.jfif'";
+});
 
- document.getElementById("btnOff").onclick="document.getElementById('myImage').src='blub on.jfif'";
+document.getElementById('turnOffButton').addEventListener('click', function() {
 
-}
+  document.getElementById('myImage').src = 'blub off.jfif';
+  
+});

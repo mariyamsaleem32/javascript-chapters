@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css">
+    <title>Toggle Light</title>
+    </head>
 
-    <button onclick="document.getElementById('myImage').src='blub on.jfif'">Turn on the light</button>
-    <img id="myImage" src="blub off.jfif" style="width:30px">
-    <button onclick="document.getElementById('myImage').src='blub off.jfif'">Turn off the light</button>
+    <body>
+
+        <button id="turnOnButton">Turn on the light</button>
+
+        <img id="myImage" src="blub off.jfif" alt="Light">
+
+        <button id="turnOffButton">Turn off the light</button> 
+        
 
     <!-- <img src="download (1).jfif" onMouseover="src='download.jfif'"> -->
 
     
-
-
     <script src="script.js"></script>
 </body>
 </html>
