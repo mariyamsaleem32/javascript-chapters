@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chapter 82</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<center>
+    <div class="container">
+        <form onsubmit="return registrationForm();" action="data.html"  method="post" target="_blank">
+            <h1>Registration Form</h1>
+            <br>
+
+            <label for="firstNameField">First name:</label>
+            <input type="text" id="firstNameField">
+            <br>
+            <label for="lastNameField">Last name:</label>
+            <input type="text" id="lastNameField">
+            <br>
+            <label for="contactField">Contact:</label>
+            <input type="text" id="contactField">
+            <br>
+            <label for="emailField">Email:</label>
+            <input type="email" id="emailField"> 
+            <br>
+            <label for="passwordField">Password:</label>
+            <input type="password" id="passwordField">
+            <br>
+            <label for="conformPasswordField">Confirm password:</label>
+            <input type="password" id="conformPasswordField">
+            <br>
+            <input type="submit" value="Submit Form" id="btn">
+        </form>
+    </div>
+</center>
+
+<script src="script.js"></script>
 </body>
 </html>

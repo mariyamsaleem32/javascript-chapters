@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added for consistent sizing */
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white; /* Added for text visibility on black background */
+}
+
+.container {
+    width: 300px;
+    height: auto; /* Changed from fixed height */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+    margin: 155px auto; /* Center container horizontally */
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+input {
+    margin: 5px;
+    font-size: 15px;
+    padding: 5px; /* Added padding for better text input */
+}
+
+#btn {
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 20px; /* Added padding for button */
+    border: none; /* Removed default border */
+    cursor: pointer; /* Changed cursor on hover */
+}
